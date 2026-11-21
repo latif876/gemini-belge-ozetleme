@@ -91,7 +91,8 @@ if not pdf_text.strip():
 
 # 7. Türkçe özet için prompt hazırla
 prompt = f"""
-Aşağıdaki belgeyi yalnızca belgede yer alan bilgilere dayanarak Türkçe özetle.
+Belge hangi dilde olursa olsun, özeti Türkçe olarak hazırla.
+Özeti yalnızca belgede yer alan bilgilere dayanarak oluştur.
 Belgede olmayan bilgi veya sonuçları ekleme.
 
 Özeti şu başlıklarla düzenle:
